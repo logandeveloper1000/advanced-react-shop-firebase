@@ -1,7 +1,7 @@
 // src/features/cart/cartSlice.ts
 import { createSlice } from "@reduxjs/toolkit";
 import type { PayloadAction } from "@reduxjs/toolkit";
-import type { Product } from "../../api/fakestore";
+import type { Product } from "../../types/product";
 
 export type CartItem = {
   id: number;

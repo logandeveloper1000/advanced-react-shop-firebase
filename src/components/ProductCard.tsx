@@ -1,5 +1,5 @@
 // src/components/ProductCard.tsx
-import type { Product } from "../api/fakestore";
+import type { Product } from "../types/product";
 
 type Props = { product: Product; onAdd: (p: Product) => void };
 

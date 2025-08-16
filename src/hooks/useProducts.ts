@@ -2,7 +2,7 @@
 import { useQuery } from "@tanstack/react-query";
 import { listAllProducts, listProductsByCategory, listCategories } from "../services/products";
 import type { FirestoreProduct } from "../types/product";
-import type { Product } from "../api/fakestore";
+import type { Product } from "../types/product";
 
 // Adapter: FirestoreProduct -> UI Product used by ProductCard/cart
 function toUiProduct(p: FirestoreProduct): Product {

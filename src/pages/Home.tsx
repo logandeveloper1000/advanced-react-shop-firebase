@@ -5,7 +5,7 @@ import { addToCart } from "../features/cart/cartSlice";
 import { useCategories, useProducts } from "../hooks/useProducts";
 import CategorySelect from "../components/CategorySelect";
 import ProductCard from "../components/ProductCard";
-import type { Product } from "../api/fakestore";
+import type { Product } from "../types/product";
 
 export default function Home() {
   const [category, setCategory] = useState<"all" | string>("all");
